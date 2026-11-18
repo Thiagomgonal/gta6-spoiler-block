@@ -42,6 +42,9 @@
     // Discord, Twitch
     'li[id^="chat-messages-"]',
     ".chat-line__message",
+    // Kick
+    '[data-testid="livestream-results-card"]',
+    '[data-testid="carousel"] .flex-1.rounded-lg',
     // LinkedIn
     ".feed-shared-update-v2",
     // TikTok

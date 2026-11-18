@@ -33,7 +33,7 @@ Suas configurações e contadores são mantidos.
 </p>
 
 - **Oculta o card inteiro**: texto, thumbnail e vídeo juntos, e não apenas a palavra.
-- **Funciona em qualquer site**, com ajustes específicos para X, YouTube, Reddit, Discord, Twitch, Bluesky, Threads, Facebook, LinkedIn, TikTok e Google.
+- **Funciona em qualquer site**, com ajustes específicos para X, YouTube, Reddit, Discord, Twitch, Kick, Bluesky, Threads, Facebook, LinkedIn, TikTok e Google.
 - **Sem "piscar" o spoiler**: o conteúdo carregado depois (scroll infinito, navegação em SPAs) é coberto antes de ser desenhado na tela.
 - **Bloqueio de página inteira** quando o título da página é sobre GTA 6, com pausa automática de vídeos.
 - **Lê além do texto**: `alt`, `title`, `aria-label` e o nome do arquivo das imagens (`gta-6-lucia-trailer.jpg`).
