@@ -2,7 +2,7 @@
 
 Extensão para Google Chrome que esconde spoilers de **GTA 6** enquanto você navega. Posts, vídeos, imagens e notícias sobre o jogo ganham uma capa de **SPOILER** e só aparecem se você clicar.
 
-![Feed com posts, vídeos e notícias sobre GTA 6 cobertos pela capa de spoiler](docs/preview-feed.png)
+![Página inicial do YouTube com vídeos sobre GTA 6 cobertos pela capa de spoiler](docs/example-youtube.png)
 
 ## Instalação
 
@@ -28,8 +28,8 @@ Suas configurações e contadores são mantidos.
 ## Funcionalidades
 
 <p>
-  <img src="docs/preview-popup.png" alt="Popup da extensão com contadores e opções" width="300">
-  <img src="docs/preview-shield.png" alt="Página inteira bloqueada porque o título menciona GTA 6" width="520">
+  <img src="docs/example-x.png" alt="Timeline do X com posts sobre GTA 6 cobertos pela capa de spoiler" width="400">
+  <img src="docs/preview-popup.png" alt="Popup da extensão com contadores e opções" width="280">
 </p>
 
 - **Oculta o card inteiro**: texto, thumbnail e vídeo juntos, e não apenas a palavra.
