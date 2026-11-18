@@ -1,0 +1,4 @@
+project_id = "gta6-spoiler-block"
+
+[functions.track]
+verify_jwt = false

@@ -1,0 +1,41 @@
+{
+  "extName": { "message": "GTA 6 Spoiler Block" },
+  "extShortName": { "message": "Spoiler Block" },
+  "extDescription": {
+    "message": "Hides GTA 6 spoilers across the web: posts, videos, images and news about Jason, Lucia, Leonida and more."
+  },
+
+  "overlayText": { "message": "Spoiler" },
+  "overlayLabel": { "message": "Possible GTA 6 spoiler hidden. Click to reveal." },
+
+  "shieldTitle": { "message": "Possible GTA 6 spoiler" },
+  "shieldText": { "message": "This page's title mentions GTA 6, so it was hidden to protect your experience." },
+  "shieldBack": { "message": "Go back" },
+  "shieldShow": { "message": "Show page" },
+
+  "popupToggleLabel": { "message": "Turn protection on or off" },
+  "popupStatusOn": { "message": "Protection on" },
+  "popupStatusPaused": { "message": "Paused on this site" },
+  "popupStatusOff": { "message": "Protection off" },
+  "popupPageCount": { "message": "hidden on this page" },
+  "popupTotalCount": { "message": "hidden in total" },
+  "popupPauseSite": {
+    "message": "Pause on $SITE$",
+    "placeholders": { "site": { "content": "$1", "example": "youtube.com" } }
+  },
+  "popupPauseHint": { "message": "Show everything on this site." },
+  "popupSiteUnavailable": { "message": "Not available on this page" },
+  "popupStrictTitle": { "message": "Strict mode" },
+  "popupStrictHint": { "message": "Also hides generic mentions like “GTA” and “Rockstar Games”." },
+  "popupTelemetryTitle": { "message": "Anonymous statistics" },
+  "popupTelemetryHint": { "message": "Sends only how many items were hidden. No URLs or content." },
+  "popupCustomTitle": { "message": "Custom terms" },
+  "popupCustomHint": { "message": "One per line. Handy for names revealed after launch." },
+  "popupCustomPlaceholder": { "message": "e.g. a new character's name" },
+  "popupSave": { "message": "Save" },
+  "popupSaved": { "message": "Saved" },
+  "popupDonateTitle": { "message": "Buy me a coffee ☕" },
+  "popupDonateText": { "message": "and help a dev get GTA VI, one coffee at a time. (Pix, Brazil)" },
+  "popupDonateZoom": { "message": "Click to enlarge the QR code" },
+  "popupDonateQrAlt": { "message": "Pix QR code for donations" }
+}

@@ -1,0 +1,41 @@
+{
+  "extName": { "message": "GTA 6 Spoiler Block" },
+  "extShortName": { "message": "Spoiler Block" },
+  "extDescription": {
+    "message": "Esconde spoilers de GTA 6 na web: posts, vídeos, imagens e notícias sobre Jason, Lucia, Leonida e muito mais."
+  },
+
+  "overlayText": { "message": "Spoiler" },
+  "overlayLabel": { "message": "Possível spoiler de GTA 6 oculto. Clique para revelar." },
+
+  "shieldTitle": { "message": "Possível spoiler de GTA 6" },
+  "shieldText": { "message": "O título desta página menciona GTA 6, então ela foi ocultada para proteger sua experiência." },
+  "shieldBack": { "message": "Voltar" },
+  "shieldShow": { "message": "Mostrar página" },
+
+  "popupToggleLabel": { "message": "Ativar ou desativar a proteção" },
+  "popupStatusOn": { "message": "Proteção ativa" },
+  "popupStatusPaused": { "message": "Pausado neste site" },
+  "popupStatusOff": { "message": "Proteção desativada" },
+  "popupPageCount": { "message": "ocultos nesta página" },
+  "popupTotalCount": { "message": "ocultos no total" },
+  "popupPauseSite": {
+    "message": "Pausar em $SITE$",
+    "placeholders": { "site": { "content": "$1", "example": "youtube.com" } }
+  },
+  "popupPauseHint": { "message": "Mostra tudo neste site." },
+  "popupSiteUnavailable": { "message": "Indisponível nesta página" },
+  "popupStrictTitle": { "message": "Modo rigoroso" },
+  "popupStrictHint": { "message": "Também oculta menções genéricas como “GTA” e “Rockstar Games”." },
+  "popupTelemetryTitle": { "message": "Estatísticas anônimas" },
+  "popupTelemetryHint": { "message": "Envia só quantos itens foram ocultados. Nada de URLs ou conteúdo." },
+  "popupCustomTitle": { "message": "Termos personalizados" },
+  "popupCustomHint": { "message": "Um por linha. Útil para nomes revelados depois do lançamento." },
+  "popupCustomPlaceholder": { "message": "ex.: nome de um personagem novo" },
+  "popupSave": { "message": "Salvar" },
+  "popupSaved": { "message": "Salvo" },
+  "popupDonateTitle": { "message": "Doe um cafezinho ☕" },
+  "popupDonateText": { "message": "e ajude um dev a comprar o GTA VI de cafezinho em cafezinho. (Pix)" },
+  "popupDonateZoom": { "message": "Clique para ampliar o QR Code" },
+  "popupDonateQrAlt": { "message": "QR Code Pix para doação" }
+}

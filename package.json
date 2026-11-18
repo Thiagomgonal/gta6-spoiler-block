@@ -1,0 +1,15 @@
+{
+  "name": "gta6-spoiler-block",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chrome extension that hides GTA 6 spoilers across the web.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test tests/",
+    "build": "node scripts/build.mjs"
+  }
+}

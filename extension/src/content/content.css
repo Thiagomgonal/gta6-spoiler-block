@@ -1,0 +1,34 @@
+/* Text nodes sitting directly in the container can't be blurred on their own,
+   so they are made transparent; child elements are blurred instead. */
+[data-gsb="hidden"] {
+  isolation: isolate !important;
+  clip-path: inset(0 round 8px) !important;
+  user-select: none !important;
+  color: transparent !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+[data-gsb="hidden"][data-gsb-static] {
+  position: relative !important;
+}
+
+[data-gsb="hidden"] > :not(gsb-overlay) {
+  filter: blur(14px) !important;
+}
+
+gsb-overlay {
+  all: initial !important;
+  position: absolute !important;
+  inset: 0 !important;
+  z-index: 2147483000 !important;
+  display: block !important;
+  cursor: pointer !important;
+}
+
+gsb-shield {
+  all: initial !important;
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 2147483647 !important;
+  display: block !important;
+}

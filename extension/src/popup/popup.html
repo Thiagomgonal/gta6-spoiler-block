@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GTA 6 Spoiler Block</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img class="logo" src="../../icons/icon48.png" alt="" width="36" height="36" />
+      <div class="heading">
+        <h1 data-i18n="extName"></h1>
+        <p class="status" id="status"></p>
+      </div>
+      <label class="switch" data-i18n-title="popupToggleLabel">
+        <input type="checkbox" id="enabled" />
+        <span class="track" aria-hidden="true"></span>
+      </label>
+    </header>
+
+    <section class="stats">
+      <div class="stat">
+        <strong id="pageCount">0</strong>
+        <span data-i18n="popupPageCount"></span>
+      </div>
+      <div class="stat">
+        <strong id="totalCount">0</strong>
+        <span data-i18n="popupTotalCount"></span>
+      </div>
+    </section>
+
+    <section class="options">
+      <label class="row" id="siteRow">
+        <span class="text">
+          <span class="title" id="siteTitle"></span>
+          <span class="hint" data-i18n="popupPauseHint"></span>
+        </span>
+        <span class="switch">
+          <input type="checkbox" id="pauseSite" />
+          <span class="track" aria-hidden="true"></span>
+        </span>
+      </label>
+
+      <label class="row">
+        <span class="text">
+          <span class="title" data-i18n="popupStrictTitle"></span>
+          <span class="hint" data-i18n="popupStrictHint"></span>
+        </span>
+        <span class="switch">
+          <input type="checkbox" id="strict" />
+          <span class="track" aria-hidden="true"></span>
+        </span>
+      </label>
+
+      <label class="row" id="telemetryRow" hidden>
+        <span class="text">
+          <span class="title" data-i18n="popupTelemetryTitle"></span>
+          <span class="hint" data-i18n="popupTelemetryHint"></span>
+        </span>
+        <span class="switch">
+          <input type="checkbox" id="telemetry" />
+          <span class="track" aria-hidden="true"></span>
+        </span>
+      </label>
+    </section>
+
+    <details class="custom">
+      <summary data-i18n="popupCustomTitle"></summary>
+      <p class="hint" data-i18n="popupCustomHint"></p>
+      <textarea id="customTerms" rows="4" spellcheck="false" data-i18n-placeholder="popupCustomPlaceholder"></textarea>
+      <button type="button" id="saveTerms" data-i18n="popupSave"></button>
+    </details>
+
+    <section class="donate" id="donate">
+      <button type="button" class="qr" id="pixQr" aria-expanded="false" data-i18n-title="popupDonateZoom">
+        <img src="../../assets/pix-qr.svg" alt="" data-i18n-alt="popupDonateQrAlt" />
+      </button>
+      <p>
+        <strong data-i18n="popupDonateTitle"></strong>
+        <span data-i18n="popupDonateText"></span>
+      </p>
+    </section>
+
+    <footer class="footer" id="version"></footer>
+
+    <script src="../shared/settings.js"></script>
+    <script src="../config.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
